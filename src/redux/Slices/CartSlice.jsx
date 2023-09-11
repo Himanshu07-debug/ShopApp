@@ -6,7 +6,6 @@ export const CartSlice = createSlice({
     reducers: {
         add: (state, action) => {
             state.push(action.payload);
-            // action.payload is the input parameter passed during the function call
         },
         
         remove: (state, action) => {
